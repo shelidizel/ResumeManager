@@ -1,6 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ResumeManager.Models;
-using System.Collections.Generic;
 
 namespace ResumeManager.Data
 {

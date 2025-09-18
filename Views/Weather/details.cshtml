@@ -1,0 +1,27 @@
+﻿@* Views/Weather/Details.cshtml *@
+
+@model ResumeManager.Models.WeatherDetailsViewModel
+
+@{
+    ViewData["Title"] = "Weather Details";
+}
+
+<div class="card">
+    <div class="card-header">
+        <h1>Weather Details</h1>
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">Location</h5>
+        <p class="card-text">
+            <strong>Latitude:</strong> @Model.Latitude
+            <br />
+            <strong>Longitude:</strong> @Model.Longitude
+        </p>
+        <h5 class="card-title">Current Conditions</h5>
+        <p class="card-text">
+            <strong>Time:</strong> @Model.Time
+            <br />
+            <strong>Air Temperature (NOAA):</strong> @Model.AirTemperature °C
+        </p>
+    </div>
+</div>

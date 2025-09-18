@@ -1,0 +1,36 @@
+﻿# Visual Studio
+.vs/
+
+# Binaries and build artifacts
+[Bb]in/
+[Oo]bj/
+*.exe
+*.dll
+*.pdb
+*.suo
+*.user
+*.userprefs
+
+# NuGet packages
+packages/
+# This is for the new SDK-style projects, not usually needed but good practice
+# .nupkg file
+# .snk file
+
+# Temporary files
+temp/
+[Tt]emp/
+~*
+
+# Visual Studio Code
+.vscode/
+
+# Rider IDE
+.idea/
+
+# Editor config
+.editorconfig
+
+# Local secrets
+*.secrets.json
+appsettings.Development.json
